@@ -1,13 +1,12 @@
-img #piano {
+#piano {
   height: 200px;
   width: 40%;
 }
 h1 { 
-   font-family: 'UniqueRegular'; 
-   font-weight: normal; 
-   font-style: normal; 
+  font-family: 'UniqueRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
 }
-
 body {
   font-size: 80%;
   font-family: "Courier New", Courier, monospace;
