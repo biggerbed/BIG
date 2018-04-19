@@ -1,3 +1,9 @@
+h1 { 
+   font-family: 'UniqueRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
 body {
   font-size: 80%;
   font-family: "Courier New", Courier, monospace;
