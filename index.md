@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Paradise
 
 You can use the [editor on GitHub](https://github.com/biggerbed/la-flame/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
