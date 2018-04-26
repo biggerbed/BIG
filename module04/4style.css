@@ -1,0 +1,65 @@
+* { 
+  font-family: 'PepsiCyrLatRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  text-align: center;
+}
+body {
+  background-image: url("https://media-s3-us-east-1.ceros.com/hype-beast/images/2017/10/10/24f92f36cc27b8633cf07c3b83e85051/toile-goyard-fond-ecran-blanc-1262-718.jpg");
+  width: 90%;
+  margin: 0 auto;
+
+}
+#content {
+  overflow: auto;
+}
+#nav {
+  
+}
+
+#feature {
+  background-image: url("https://acclaimmag.com/wp-content/uploads/2012/11/08.jpg");
+  margin:1%;
+  background-size:contain;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+#footer {
+  margin: 1%;
+}
+.column1,
+.column2,
+.column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+.column3 {
+  background-color: #00529F;
+  margin-right: 0%;
+}
+.column2 {
+  background-color: tan;
+  margin-right: 0%;
+}
+.column1 {
+  background-color: #EE324E;
+  margin-right: 0%;
+}
+li {
+  display: inline;
+  padding: 0.5em;
+}
+#nav {
+  background-color: #ffeaa7;
+  padding: .5em 0;
+}
+#footer {
+  background-color: #ffeaa7;
+  padding: 0.5em 0;
+}
+#feature,
+.article {
+  height: 10em;
+  margin-bottom: 1em;
+}
