@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Artifact 3 - Rhombus Example">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="Artifacts03.css">
+<title>Rhombus - Artifact O3</title>
+  <h2>A Rhombus</h2>
+ 
+  <h5>by Obed Haile</h5>
+</head>
+<body>
+  
+<label>What is the size of Rhombus?</label><br>
+<input type="text" id="rHeight" value="5" size="5">
+<br>
+<label>Select color for Even position</label><br>
+<select id="colorEven">
+<option value="#F79F1F">Orange</option>
+<option value="#c0392b">Red</option>
+<option value="#006266">Teal</option> 
+</select><br> 
+
+<label>Select color for Odd position</label><br>
+<select id="colorOdd">
+<option value="#B53471">Purple</option>
+<option value="#2ecc71">Emerald</option>
+<option value="#FDA7DF">Pink</option> 
+</select>
+<br>
+<label>Select symbol for Rhombus</label>
+<select id="symbol">
+  <option value="✈">✈</option>
+<option value="*">*</option>
+<option value="$">$</option>
+<option value="@">@</option> 
+</select>
+<br>
+<button onclick="createRhombus(document.getElementById('rHeight').value,
+document.getElementById('colorEven').value,
+document.getElementById('colorOdd').value,
+document.getElementById('symbol').value);">Show Rhombus</button>
+<div id="upLeft"></div>
+<div id="upRight"></div>
+
+<div class="clear"></div>
+
+
+<div id="downLeft"></div> 
+<div id="downRight"></div>
+
+<!-- CALL YOUR JAVASCRIPT FILE IF YOU ARE USING A HOSTING ENVIRONMENT-->
+
+<script src="Artifacts03.js"></script>
+
+
+
+</body>
+</html>
